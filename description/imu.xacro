@@ -20,7 +20,7 @@
   <joint name="imu_joint" type="fixed">
     <parent link="base_link"/>
     <child link="imu_link"/>
-    <origin xyz="0.28 -0.260 0.49071"/>
+    <origin xyz="0.28 -0.260 0.150" rpy="0 0 3.14159"/>
   </joint>
 
   <gazebo reference="imu_link">
